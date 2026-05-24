@@ -15,7 +15,7 @@ int answer(int *nums,int n,int target){
                 st=mid+1;
             }
         }else{
-        if(nums[mid]<=target && target>=nums[end]){
+        if(nums[mid]<=target && target<=nums[end]){
             st=mid+1;
         }else{
             end=mid-1;
